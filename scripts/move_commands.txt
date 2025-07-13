@@ -1,0 +1,12 @@
+camera_tilt -40
+spin
+move_to 8.5 0 0
+spin 
+move_to 8.5 -3.5 0
+spin
+move_to 11.5 -3.5 0
+spin
+move_to 12.5 -2 0
+spin
+move_to 11.5 0 0
+spin
