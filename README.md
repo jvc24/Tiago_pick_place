@@ -1,4 +1,4 @@
-
+Tiago robot to detect april tags and pick and place as part of assignment of the course "Intelligent Robotics" during my masters degree at university of padova 
 
 Commands to run assignement 1
 
