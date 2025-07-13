@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(ir2425_group_26_asign_2)
+project(ir2425_group_26)
 
 ## Find catkin and any required components
 find_package(catkin REQUIRED COMPONENTS

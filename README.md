@@ -1,29 +1,22 @@
-# README #
+GROUP 26
+Jesper Wille Jensen, jesperwille.jensen@studenti.unipd.it
+Jayanthvikram Chekkala, jayanthvikram.chekkala@studenti.unipd.it
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Commands to run assignement 1
 
-### What is this repository for? ###
+roslaunch tiago_iaslab_simulation start_simulation.launch world_name:=iaslab_assignment1 gui:=true verbose:=true
+roslaunch tiago_iaslab_simulation navigation.launch
+roslaunch tiago_iaslab_simulation apriltag.launch
+rosrun tiago_iaslab_simulation apriltag_ids_generator_node
+roslaunch ir2425_group_26 assignment.launch
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+Commands to run assignement 2
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+roslaunch tiago_iaslab_simulation start_simulation.launch world_name:=iaslab_assignment2 gui:=true verbose:=true
+roslaunch tiago_iaslab_simulation navigation.launch
+roslaunch tiago_iaslab_simulation apriltag2.launch
+rosrun tiago_iaslab_simulation get_straightline_node
+rosrun ir2425_group_26_asign_2 nodeA_as2.py
+rosrun ir2425_group_26_asign_2 nodeB_as2.py
+rosrun ir2425_group_26_asign_2 nodeC_as2.py
