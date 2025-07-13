@@ -1,0 +1,10 @@
+<launch>
+    <!-- Node A -->
+    <node name="node_a" pkg="ir2425_group_26" type="node_a.py" output="screen" />
+
+    <!-- Node B April Tag Detection -->
+    <node name="node_b_april_tag_detection" pkg="ir2425_group_26" type="node_b_april_tag_detection.py" output="screen" />
+
+    <!-- Node B Navigation -->
+    <node name="node_b_navigation" pkg="ir2425_group_26" type="node_b_navigation.py" output="screen" />
+</launch>
