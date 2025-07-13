@@ -1,6 +1,4 @@
-GROUP 26
-Jesper Wille Jensen, jesperwille.jensen@studenti.unipd.it
-Jayanthvikram Chekkala, jayanthvikram.chekkala@studenti.unipd.it
+
 
 Commands to run assignement 1
 
